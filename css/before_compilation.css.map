@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,EAAG;EACC,WAAW,EAJF,SAAS",
+"sources": ["before_compilation.scss"],
+"names": [],
+"file": "before_compilation.css"
+}
