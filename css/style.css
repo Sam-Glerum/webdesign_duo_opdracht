@@ -25,11 +25,12 @@
 }
 
 #menu_button {
-    border: 2px solid;
-    border-radius: 0.1em;
+    /*border: 2px solid;
+    border-radius: 0.1em;*/
     float: right;
-    font-size: 3em;
-    padding: 1px;
+    font-size: 2.5em;
+    padding: 6px;
+    color: #fff;
 }
 
 .svg_icons {
