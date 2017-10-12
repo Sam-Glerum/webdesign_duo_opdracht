@@ -43,6 +43,7 @@
 /* change the background color */
 .navbar-inverse {
     background-color: #1a1a1a;
+    border-radius: 0px;
     -webkit-transition: background-color 1s;
     position: fixed;
     width: 100%;
