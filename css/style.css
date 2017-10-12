@@ -20,6 +20,11 @@
     padding-top: 2em;
 }
 
+.info_student {
+    font-size: 1em;
+    font-weight: bold;
+}
+
 #menu_button {
     /*border: 2px solid;
     border-radius: 0.1em;*/
@@ -35,7 +40,7 @@
 }
 
 #sam_img {
-    width: 11em;
+    width: 10em;
     border-radius: 6em;
     margin-bottom: 1em;
 }
@@ -66,7 +71,15 @@
         background-color: #c6002a;
     }
 
+    .info_student {
+        text-align: center;
+    }
+
     .navbar-inverse .navbar-header .navbar-toggle {
 
     }
+}
+
+.uitleg_opdracht {
+    text-align: center;
 }
