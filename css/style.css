@@ -7,6 +7,7 @@
 }
 
 #particle-js {
+    background-color: #C6002A;
     width:100%;
     height: calc(100% - 50px);
     position: fixed;
