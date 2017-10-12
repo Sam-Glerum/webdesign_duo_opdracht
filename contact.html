@@ -3,38 +3,71 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="widt=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--(Bootstrap) Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/contact.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/before_compilation.css" type="text/css">
     
         <title>Duo-opdracht Webdesign</title>
     </head>    
 
     <body>
-        <div class="header_div">
-            <header class="col-md-12">
-                <span class="glyphicon glyphicon-menu-hamburger" id="menu_button"></span>
-                <img id="avans_logo" src="images/Avans_Hogeschool_Logo.svg">
-            </header>
-        </div>
+
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img class="navbar-brand" src="images/Avans_Hogeschool_Logo.svg" alt="">
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="container" id="content_container">
             <div class="jumbotron">
-                <div>
-                    <p>Uitleg over waarom we de opdracht hebben gedaan</p>
+            
+            <!-- Image carousel row -->
+                
+                <!-- icon + content -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="icons/brainstorm.svg" alt="icon" class="svg_icons center-block"></img>
+                        <h3 class="antwoorden_headers">Arjan Gosens</h3>
+                        <p class="antwoorden">lorem ipsem</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/sam_pf.jpg" alt="Sam Glerum" id="sam_img" class="center-block"></img>
+                        <h3 class="antwoorden_headers">Sam Glerum</h3>
+                        <p class="antwoorden">lorem ipsem</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="icons/studying.svg" alt="icon" class="svg_icons center-block"></img>    
+                        <h3 class="antwoorden_headers">Teun Colin</h3>
+                        <p class="antwoorden">lorem ipsem</p>
+                    </div>
                 </div>
-                
-                
 
             </div>
         </div>
 
+        <div id="particle-js"></div>
         <!--(Bootstrap) jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--(Bootstrap) Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Particles.JS -->
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <!-- eigen JS -->
         <script src="js/script.js" type="text/javascript"></script>
     </body>

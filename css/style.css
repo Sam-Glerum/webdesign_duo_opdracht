@@ -34,6 +34,12 @@
     margin-bottom: 4em;
 }
 
+#sam_img {
+    width: 11em;
+    border-radius: 6em;
+    margin-bottom: 1em;
+}
+
 .svg_icons {
     width: 9em;
     padding-bottom: 1em;
