@@ -6,6 +6,15 @@
     text-align: center;
 }
 
+#particle-js {
+    width:100%;
+    height: calc(100% - 50px);
+    position: fixed;
+    top:50px;
+    left:0px;
+    z-index: -1;
+}
+
 #avans_logo {
     padding-top: 0.4em;
     width: 10em;
