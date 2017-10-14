@@ -17,6 +17,7 @@ hr {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 2em;
+    font-size: 1em;
 }
 
 .antwoorden_headers {
@@ -26,6 +27,16 @@ hr {
     font-weight: bold;
     letter-spacing: 2px;
     
+}
+
+.antwoord-buttons a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.antwoord-buttons {
+    margin-bottom: 2em;
 }
 
 .content_block {
