@@ -24,6 +24,10 @@ hr {
     padding-top: 2em;
 }
 
+#content_jumbotron {
+    box-shadow: 0px 0px 21px;
+}
+
 .info_student {
     font-size: 1em;
     font-weight: bold;
