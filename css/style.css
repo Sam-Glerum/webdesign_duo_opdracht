@@ -26,6 +26,7 @@ hr {
 
 #content_jumbotron {
     box-shadow: 0px 0px 21px;
+    border-radius: 3px;
 }
 
 .info_student {
