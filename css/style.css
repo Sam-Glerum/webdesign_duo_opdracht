@@ -35,11 +35,11 @@ hr {
 
 .info_student {
     font-size: 1em;
+    letter-spacing: 0.1em;
     border: 2px ridge;
     border-radius: 0.5em;
     box-shadow: 3px 3px 3px #d3d0cb;;
     padding: 1em;
-    font-weight: normal;
     margin: 0.3em;
 }
 
