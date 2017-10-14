@@ -24,6 +24,11 @@ hr {
     padding-top: 2em;
 }
 
+.icon_hr {
+    height: 1px;
+    background-color: #000000;
+}
+
 .info_student {
     font-size: 1em;
     font-weight: bold;
