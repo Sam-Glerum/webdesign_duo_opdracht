@@ -1,5 +1,13 @@
-$noSerifFont: sans-serif;
+$noSerifFont: "Raleway";
+
+article {
+    font-family: $noSerifFont;
+}
 
 h3 {
+    font-family: $noSerifFont;
+}
+
+p {
     font-family: $noSerifFont;
 }
