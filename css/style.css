@@ -17,11 +17,14 @@ hr {
     text-align: center;
     padding-left: 10%;
     width: 90%;
+    font-weight: bold;
+    letter-spacing: 2px;
     
 }
 
 .content_block {
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
+    background-color: rgba(206, 206, 206, 0.8)
 }
 
 #content_container {
@@ -31,6 +34,7 @@ hr {
 .icon_hr {
     height: 1px;
     background-color: #000000;
+    border-top: 1px #000000;
 }
 
 .info_student {
