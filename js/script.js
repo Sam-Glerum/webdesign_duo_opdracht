@@ -1,6 +1,23 @@
 
+$(() => {
 
-particlesJS("particle-js", {
+  var vragen = ["informatica", "opleiding", "indeling", "beroepen", "toelatingseisen", "beroepsprofielen"];
+
+  for(var i = 0; i < vragen.length; i++)
+  {
+    var s = "#" + vragen[i];
+
+    $(s).css("cursor", "pointer");// Zorg dat alle vragen duidelijk klikbaar zijn.
+
+    $(s).click(function() {
+      $(this).find(".antwoorden").slideToggle();
+    });
+  }
+
+
+
+
+  particlesJS("particle-js", {
     "particles": {
       "number": {
         "value": 100,
@@ -102,3 +119,8 @@ particlesJS("particle-js", {
     },
     "retina_detect": true
   });
+
+
+});
+
+
