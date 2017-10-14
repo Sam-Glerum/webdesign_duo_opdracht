@@ -2,6 +2,11 @@ body {
     padding-top: 50px;
 }
 
+hr {
+    height: 1px;
+    background-color: #000000;
+}
+
 .antwoorden {
     text-align: center;
     margin-top: 1em;
@@ -56,6 +61,12 @@ body {
 
 .student_div {
     margin-bottom: 1em;
+}
+
+.student_horizontal_line {
+    background-color: #000000;
+    height: 1px;
+    width: 15em;
 }
 
 .svg_icons {
