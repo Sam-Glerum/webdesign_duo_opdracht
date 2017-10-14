@@ -16,14 +16,8 @@ hr {
     text-align: center;
 }
 
-#particle-js {
-    background-color: #C6002A;
-    width:100%;
-    height: calc(100% - 50px);
-    position: fixed;
-    top:50px;
-    left:0px;
-    z-index: -1;
+.content_block {
+    background-color: #e5e5e5;
 }
 
 #content_container {
@@ -53,6 +47,17 @@ hr {
     text-align: center;
     margin-bottom: 1em;
 }
+
+#particle-js {
+    background-color: #C6002A;
+    width:100%;
+    height: calc(100% - 50px);
+    position: fixed;
+    top:50px;
+    left:0px;
+    z-index: -1;
+}
+
 #sam_img {
     width: 10em;
     border-radius: 6em;
