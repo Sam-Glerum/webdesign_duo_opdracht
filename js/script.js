@@ -9,6 +9,14 @@ $(() => {
 
     $(s).css("cursor", "pointer");// Zorg dat alle vragen duidelijk klikbaar zijn.
 
+    $(s).mouseover(function() {
+      $(this).find(".antwoorden_headers").stop().animate({fontSize: '28px'}, 200);
+    });
+
+    $(s).mouseout(function() {
+      $(this).find(".antwoorden_headers").stop().animate({fontSize: '24px'}, 200);
+    });
+
     $(s).click(function() {
       $(this).find(".antwoorden").slideToggle();
     });
