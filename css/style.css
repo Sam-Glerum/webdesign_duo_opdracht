@@ -2,6 +2,12 @@ body {
     padding-top: 50px;
 }
 
+#arjan_div {
+    margin-bottom: 1em;
+    border: 1px solid;
+
+}
+
 .antwoorden {
     text-align: center;
     margin-top: 1em;
