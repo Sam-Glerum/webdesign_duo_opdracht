@@ -29,6 +29,7 @@ $(function() {
 
 });
 
+// Here you can adjust the settings for particles.js
 particlesJS("particle-js", {
     "particles": {
       "number": {
