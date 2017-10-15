@@ -20,11 +20,11 @@ $(function() {
   $(".question").css("cursor", "pointer");
 
   $(".question").mouseover(function() {
-    $(this).find(".antwoorden_headers").stop().animate({fontSize: '28px'}, 200);
+    $(this).find(".antwoorden_headers").stop().animate({fontSize: '24px'}, 200);
   });
 
   $(".question").mouseout(function() {
-    $(this).find(".antwoorden_headers").stop().animate({fontSize: '24px'}, 200);
+    $(this).find(".antwoorden_headers").stop().animate({fontSize: '20px'}, 200);
   });
 
 });
