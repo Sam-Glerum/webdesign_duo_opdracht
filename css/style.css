@@ -1,14 +1,17 @@
 a {
+    /* set font of all links to Arial */
     font-family: "Arial";
     font-size: 1.3em;
     letter-spacing: 0.1em;
 }
 
 body {
+    /* The padding creates room between jumbotron and the navbar*/
     padding-top: 50px;
 }
 
 hr {
+    /* Horizontal line */
     height: 1px;
     background-color: #000000;
 }
@@ -33,36 +36,30 @@ hr {
     
 }
 
-.antwoord-buttons a {
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.antwoord-buttons {
-    margin-bottom: 2em;
-}
-
 .content_block {
     /* background-color: #e5e5e5; */
     background-color: rgba(206, 206, 206, 0.9)
 }
 
 #content_container {
+    /* creates space between top of content and nav */
     padding-top: 2em;
 }
 
 .icon_contact_hr {
+    /* Horizontal lines for icons on contact page, set to hidden for widescreen */
     visibility: hidden;
 }
 
 .icon_hr {
+    /* Horizontal lines for icons */
     height: 1px;
     background-color: #000000;
     border-top: 1px #000000;
 }
 
 .info_student {
+    /* Rules for styling the information underneath student pictures */
     font-size: 1em;
     letter-spacing: 0.1em;
     border: 2px ridge;
@@ -72,29 +69,24 @@ hr {
 }
 
 .left_row {
+    /* Creates room between questions on Homepaeg */
     padding-right: 1.5em;
 }
 
-#menu_button {
-    /*border: 2px solid;
-    border-radius: 0.1em;*/
-    float: right;
-    font-size: 2.5em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    color: #fff;
-}
 #myCarousel {
+    /* Creates space between carousel and content underneath */
     margin-top: 0;
     margin-bottom: 4em;
 }
 
 .ontwikkeld_door {
+    /* Heading on contact page */
     text-align: center;
     margin-bottom: 1em;
 }
 
 #particle-js {
+    /* Used to style the particles in the backrgound */
     background-color: rgb(151, 0, 33);
     width:100%;
     height: calc(100% - 50px);
@@ -105,33 +97,36 @@ hr {
 }
 
 .right_row {
+    /* Creates room between questions on Homepaeg */
     padding-left: 1.5em;
 }
 
 .pasfoto {
+    /* Rules for setting the size of the student pictures */
     width: 10em;
     height: 10em;
     margin-bottom: 1em;
 }
 
 .student_div {
+    /* Creates space underneath student info div */
     margin-bottom: 1em;
 }
 
 .student_horizontal_line {
+    /* Horizontal line for the student divs */
     background-color: #000000;
     height: 1px;
 }
 
 .svg_icons {
+    /* Sets the size of the used icons and adds space beneath the icons */
     width: 9em;
     padding-bottom: 1em;
 }
 
-
-/* change the background color */
-
 .navbar-inverse {
+    /* Styling of the navbar */
     background-color: #1a1a1a;
     border-radius: 0px;
     -webkit-transition: background-color 1s;
@@ -144,16 +139,18 @@ hr {
 }
 
 .navbar-inverse li {
+    /* Creates space between links on navbar */
     margin-left: 1em;
 }
 
 .navbar-inverse li:hover {
+    /* rounds the edges when hovering over a link, changes background color on hover */
     border-radius: 0.2em;
     background-color: #282828;
 }
 
 
-
+/* media query used to change elements on the webpage when a mobile device is used to view the website */
 @media only screen and (max-width: 767px) {
     #content_container {
         margin: 0;
@@ -169,28 +166,31 @@ hr {
     }
 
     .navbar-inverse, .navbar-inverse .navbar-collapse {
+        /* changes background color of navbar when on mobile */
         background-color: #c6002a;
         height: 5.65%;
     }
 
     .navbar-header {
+        /* increases height of navbar for alignment */
         height: 50px;
     }
 
     .info_student {
+        /* aligns student info to center */
         text-align: center;
     }
 
     #myNavbar a  {
+        /* sets color of link and reduces the width to improve alignment */
         color: #f4f4f4;
         width: 95%;
     }
 
-    .navbar-inverse .navbar-header .navbar-toggle {
 
-    }
 }
 
 .uitleg_opdracht {
+    /* aligns the first text on the contact page to the center */
     text-align: center;
 }
