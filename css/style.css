@@ -161,11 +161,7 @@ hr {
         border-radius: 0;
     }
 
-    #myCarousel {
-        visibility: hidden;
-        height: 0;
-        width: 0;
-    }
+    
 
     .icon_contact_hr {
         visibility: visible;
