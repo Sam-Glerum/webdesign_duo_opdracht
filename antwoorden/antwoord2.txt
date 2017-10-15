@@ -1,3 +1,4 @@
+<b>1e leerjaar</b> <br>
 De opleiding bestaat uit 4 leerjaren.
 In het 1e jaar zul je je bezighouden met het leren van de basisvaardigheden en het oriënteren de mogelijke richtingen binnen de informatica-sector.
 Je zult hier o.a. leren hoe je kunt programmeren in Java, hoe je databases kunt ontwerpen en implementeren en hoe een website in elkaar zit. <br>
@@ -5,28 +6,21 @@ Daarnaast ga je leren hoe je in teamverband moet werken en welke methodes je hie
 Ook zul je in dit jaar al aan de slag gaan met echte projecten, zoals het bouwen van een website. <br>
 <br>
 
+<b>2e leerjaar</b> <br>
 In het 2e leerjaar ga je dieper in op de kennis die je in het 1e jaar hebt geleerd. Hier zul je verder gaan met de meer geavanceerde aspecten van het vak,
 zoals Server- en Client-side webdevelopment en je zult een aantal nieuwe programmeertalen leren. 
 Ook ga je hier leren hoe het beveiligen van een website of applicatie werkt en hoe je dit zelf het beste kunt doen.
 Naast het leren van nieuwe stof ga je je verdiepen in de richting die jij het meest interessant vindt.<br>
 <br>
 
+<b>3e leerjaar</b><br>
 In het 3e jaar ga je verder met o.a. Security, Artificial Intelligence en User Experience.
 Ook zul je hier verder gaan met software architectuur, hoe je het beste je applicatie kunt ontwerpen en bouwen.<br>
 Daarnaast zul je in dit jaar voor het eerst op stage gaan, bij een bedrijf binnen de Informatica-sector.
-Tijdens deze stage zul je ontzettend veel leren over het ontwerpen en bouwen van software en kun je zien hoe het er in het echt aan toe gaat.
+Tijdens deze stage zul je ontzettend veel leren over het ontwerpen en bouwen van software en kun je zien hoe het er in het echt aan toe gaat.<br>
 <br>
 
-
- 
-
-
-
-<!--
-Wat leer ik op de opleiding?
-Hoe is de opleiding ingedeeld?
-Hoeveel leerjaren bevat de opleiding?
-Welke onderwerpen en thema's komen in iedere periode van die leerjaren terug?
-
-wordt je in het diepe gegooid en 
--->
+<b>4e leerjaar</b><br>
+Het 4e leerjaar is je afstudeerjaar. Tijdens dit jaar ga je een minor volgen waarbij je dieper in zult gaan op een specifiek onderwerp uit het vak.
+Na de minor te hebben afgerond ga je op afstudeerstage bij een bedrijf. 
+Ook zul je in dit jaar je scriptie schrijven, om aan te tonen dat je juiste kennis bezit om te kunnen gaan werken in deze sector.
