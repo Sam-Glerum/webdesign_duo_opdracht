@@ -47,6 +47,10 @@ hr {
     padding-top: 2em;
 }
 
+.icon_contact_hr {
+    visibility: hidden;
+}
+
 .icon_hr {
     height: 1px;
     background-color: #000000;
@@ -150,6 +154,13 @@ hr {
         visibility: hidden;
         height: 0;
         width: 0;
+    }
+
+    .icon_contact_hr {
+        visibility: visible;
+        height: 1px;
+        background-color: #000000;
+        border-top: 1px #000000;
     }
 
     .navbar-inverse, .navbar-inverse .navbar-collapse {
