@@ -1,0 +1,8 @@
+Studiepunten zijn een manier om voortgang te zien bij studenten. Als je een opdracht of tentamen met een
+voldoende afrondt krijg je een bepaalde hoeveelheid studiepunten. <br />
+<br />
+De minimale benodigde hoeveelheid studiepunten verschilt per opleiding. Bij Informatica moet je minstens 52 van de 60 studiepunten
+halen voor het einde van het eerste jaar. <br />
+<br />
+De hoeveelheid studiepunten die je krijgt verschilt per vak. In de huidige periodewijzer van de opleiding
+staat hoeveel studiepunten ieder vak waard is.

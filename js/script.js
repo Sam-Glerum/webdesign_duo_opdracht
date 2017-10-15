@@ -5,7 +5,7 @@ $(function() {
   {
     var xmlhttp, text;
     xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', 'antwoorden/antwoord' + (i + 1) + '.txt', false);
+    xmlhttp.open('GET', 'antwoorden2/antwoord' + (i + 1) + '.txt', false);
     xmlhttp.send();
     text = xmlhttp.responseText;
 
