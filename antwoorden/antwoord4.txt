@@ -1,0 +1,21 @@
+In veel bedrijfstakken hebben ze ICT'ers nodig. Vanwege die reden kun je in principe alle kanten op.
+Een ICT'er heeft wel min of meer vaste taken, maar de omgeving en de projecten kunnen uiteindelijk heel veel van elkaar verschillen.
+Een paar voorbeelden van die standaardtaken zijn:
+
+Software-engineer
+Als software-engineer (of softwareontwikkelaar) ben je bezig met het ontwerpen, programmeren en testen van applicaties.
+De manier waarop je bezig bent hangt af van het bedrijf en project. Ook zijn er hierbinnen weer meerdere richtingen
+(bijvoorbeeld webdesign, mobiele applicaties, etc.) Een software-engineer werkt bij veel bedrijven vaak in projectgroepen
+met andere software-engineers en een projectmanager
+
+IT-architect
+Een IT-architect is verantwoordelijk voor de architectuur van een systeem. Hij zorgt ervoor dat alle code op
+een logische wijze verdeeld wordt zodat het programma goed en snel werkt en de code leesbaar blijft.
+Vaak kun je niet gelijk met deze functie beginnen, maar moet je ernaartoe groeien.
+
+Projectmanager
+Een projectmanager geeft leiding aan een groep werknemers die werkzaam zijn in de IT-afbeelding van een bepaald bedrijf.
+Zijn taak is om het project zo soepel mogelijk te laten verlopen zodat er een goed resultaat op de plank komt.
+
+IT-consultant
+Een IT-consultant adviseert klanten over IT. Ze denken mee om verschillende bedrijfsprocessen te automatiseren of te digitaliseren.
