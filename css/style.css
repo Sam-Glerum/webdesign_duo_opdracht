@@ -17,6 +17,7 @@ hr {
     margin-top: 1em;
     margin-bottom: 2em;
     font-size: 1em;
+    display:none;
 }
 
 .antwoorden_headers {

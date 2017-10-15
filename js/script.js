@@ -1,4 +1,33 @@
+$(function() {
 
+  //Laden van de antwoorden
+  $(".question").each(function(i)
+  {
+    var xmlhttp, text;
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('GET', 'antwoorden/antwoord' + (i + 1) + '.txt', false);
+    xmlhttp.send();
+    text = xmlhttp.responseText;
+
+    $(this).find(".antwoorden").html(text);
+  });
+
+  //
+  $(".question").click(function() {
+    $(this).find(".antwoorden").slideToggle();
+  });
+
+  $(".question").css("cursor", "pointer");
+
+  $(".question").mouseover(function() {
+    $(this).find(".antwoorden_headers").stop().animate({fontSize: '28px'}, 200);
+  });
+
+  $(".question").mouseout(function() {
+    $(this).find(".antwoorden_headers").stop().animate({fontSize: '24px'}, 200);
+  });
+
+});
 
 particlesJS("particle-js", {
     "particles": {
@@ -102,18 +131,3 @@ particlesJS("particle-js", {
     },
     "retina_detect": true
   });
-
-  function antwoordFadeIn(button_id, link) {
-    var xmlhttp, text;
-    xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', link, false);
-    xmlhttp.send();
-    text = xmlhttp.responseText;
-
-    var button = document.getElementById(button_id);
-    var article = document.createElement('article');
-    article.innerHTML = text;
-    article.setAttribute("class", "antwoorden animated fadeInUp");
-    article.setAttribute("id", button_id);
-    button.parentNode.replaceChild(article, button);
-  }
