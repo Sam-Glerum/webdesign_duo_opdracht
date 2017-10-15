@@ -14,6 +14,10 @@ hr {
 }
 
 .antwoorden {
+    background-color: rgba(177, 182, 191, 0.3);
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
     margin-top: 1em;
     margin-bottom: 2em;
     font-size: 1em;
